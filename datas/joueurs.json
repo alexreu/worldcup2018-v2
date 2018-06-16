@@ -1,0 +1,168 @@
+{
+  "joueurs": 
+  [
+    {
+      "id" : 1,
+      "nomJoueur": "Fedor SMOLOV",
+      "id_equipes": 1
+ 
+    },
+    {
+      "id" : 2,
+      "nomJoueur": "Mohammed ALSAHLAWI ",
+      "id_equipes": 2
+    },
+    {
+      "id" : 3,
+      "nomJoueur": "Mohamed SALAH",
+      "id_equipes": 3
+    },
+    {
+      "id" : 4,
+      "nomJoueur": "Giorgian DE ARRASCAETA ",
+      "id_equipes": 4
+    },
+    {
+      "id" : 5,
+      "nomJoueur": "Younes BELHANDA ",
+      "id_equipes": 5
+    },
+    {
+      "id" : 6,
+      "nomJoueur": "Karim ANSARIFARD ",
+      "id_equipes": 6
+    },
+    {
+      "id" : 7,
+      "nomJoueur": "Cristiano Ronaldo",
+      "id_equipes": 7
+    },
+    {
+      "id" : 8,
+      "nomJoueur": "THIAGO ",
+      "id_equipes": 8
+    },
+    {
+      "id" : 9,
+      "nomJoueur": "Kylian MBAPPE ",
+      "id_equipes": 9
+    },
+    {
+      "id" : 10,
+      "nomJoueur": "Robbie KRUSE ",
+      "id_equipes": 10
+    },
+    {
+      "id" : 11,
+      "nomJoueur": "Jefferson FARFAN ",
+      "id_equipes": 11
+    },
+    {
+      "id" : 12,
+      "nomJoueur": "Christian ERIKSEN ",
+      "id_equipes": 12
+    },
+    {
+      "id" : 13,
+      "nomJoueur": "Lionel MESSI ",
+      "id_equipes": 13
+    },
+    {
+      "id" : 14,
+      "nomJoueur": "Gylfi SIGURDSSON ",
+      "id_equipes": 14
+    },
+    {
+      "id" : 15,
+      "nomJoueur": "Luka MODRIC ",
+      "id_equipes": 15
+    },
+    {
+      "id" : 16,
+      "nomJoueur": "John Obi MIKEL ",
+      "id_equipes": 16
+
+    },
+    {
+      "id" : 17,
+      "nomJoueur": "Bryan RUIZ ",
+      "id_equipes": 17
+    },
+    {
+      "id" : 18,
+      "nomJoueur": "Dusan TADIC ",
+      "id_equipes": 18
+    },
+    {
+      "id" : 19,
+      "nomJoueur": "NEYMAR ",
+      "id_equipes": 19
+    },
+    {
+      "id" : 20,
+      "nomJoueur": "Granit XHAKA ",
+      "id_equipes": 20
+    },
+    {
+      "id" : 21,
+      "nomJoueur": "Mesut OEZIL ",
+
+      "id_equipes": 21
+    },
+    {
+      "id" : 22,
+      "nomJoueur": "Giovani DOS SANTOS ",
+      "id_equipes": 22
+    },
+    {
+      "id" : 23,
+      "nomJoueur": "Emil FORSBERG ",
+      "id_equipes": 23
+    },
+    {
+      "id" : 24,
+      "nomJoueur": "LEE Seungwoo ",
+      "id_equipes": 24
+    },
+    {
+      "id" : 25,
+      "nomJoueur": "Eden HAZARD ",
+      "id_equipes": 25
+    },
+    {
+      "id" : 26,
+      "nomJoueur": "Ismael DIAZ ",
+      "id_equipes": 26
+    },
+    {
+      "id" : 27,
+      "nomJoueur": "Wahbi KHAZRI ",
+      "id_equipes": 27
+    },
+    {
+      "id" : 28,
+      "nomJoueur": "Raheem STERLING ",
+      "id_equipes": 28
+    },
+    {
+      "id" : 29,
+      "nomJoueur": "James RODRIGUEZ ",
+      "id_equipes": 29
+    },
+    {
+      "id" : 30,
+      "nomJoueur": "Shinji KAGAWA ",
+      "id_equipes": 30
+    },
+    {
+      "id" : 31,
+      "nomJoueur": "Grzegorz KRYCHOWIAK ",
+      "id_equipes": 31
+    },
+    {
+      "id" : 32,
+      "nomJoueur": "Sadio MANE ",
+      "id_equipes": 32
+    }
+  ]
+}
