@@ -4,7 +4,7 @@ var port = 3012;
 var equipe = require('./equipes');
 
 app.set('view engine', 'ejs');
-
+app.use(express.static('static'));
 
 app.get('/', function(req, res){
     var tab = equipe.getEquipes();
