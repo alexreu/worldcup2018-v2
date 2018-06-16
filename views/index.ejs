@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+<div class="container">
+    <% equipes.forEach(function(result) { %>
+        <div class="row">
+            <% result.forEach(function(results) { %>
+                <h4><%= results.pays %></h4>
+            <%});%>
+        </div>
+    <%});%>
+</div>
