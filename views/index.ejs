@@ -5,9 +5,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <header>
@@ -15,18 +17,19 @@
   </header>
   <main class="container-fluid pt-5">
     <div class="container">
-        <% equipes.forEach(function(result) { %>
-            <div class="row pb-5">
-                <% result.forEach(function(results) { %>
-                    <div class="col-md-3 border text-center">
-                      <h4><%= results.pays %></h4>
-                      <div class="col-md-4 offset-md-4 border p-0">
-                        <img src ="<%= results.flag %>" class ="img-fluid"/>
-                      </div>
-                    </div>
-                <%});%>
+      <h1 class="text-uppercase offset-md-1">equipes</h1>
+      <% equipes.forEach(function(result) { %>
+        <div class="row my-pt my-pb">
+          <% result.forEach(function(results) { %>
+            <div class="col-md-2 offset-md-1 text-center style-equipes">
+                <div class="pb-5 pt-4">
+                  <h3 class="text-uppercase"><%= results.pays %></h3>
+                  <a href="#"><img src ="<%= results.flag %>" class ="img-fluid w-75"/></a>
+                </div>
             </div>
-        <%});%>
+          <%});%>
+        </div>
+      <%});%>
     </div> 
   </main>
     <footer>
@@ -37,6 +40,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
   </body>
 </html>
 

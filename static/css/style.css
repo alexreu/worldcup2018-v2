@@ -1,0 +1,27 @@
+.my-pb {
+    padding-bottom: 100px;
+}
+.my-pt {
+    padding-top: 50px;
+}
+.bg-blue {
+    background-color: #0F417C;
+}
+body {
+    font-family: 'Acme', cursive;
+}
+.style-equipes {
+    border: 5px solid #E4DDCD;
+    border-radius: 5%;
+    background: rgba(172, 172, 172, 0.301);
+    transition: 0.3s linear;
+}
+.style-equipes:hover{
+    transform: scale(1.2)
+}
+
+/* footer */
+footer {
+    background: #0F417C;
+    height: 20vh;
+}
