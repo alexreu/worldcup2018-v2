@@ -3,7 +3,7 @@
 - Application de Gestion de la coupe du mon de football 2018
 - Listing des pays participant en page equipes / OK !
     - Mettre en forme la page equipes / OK !
-    - TODO : Footer à terminer
+    - Footer à terminer / OK !
 - Ajout d'une page Stades / OK !
     - TODO Lister tous les stades
 - Ajout d'une page matches / OK !
